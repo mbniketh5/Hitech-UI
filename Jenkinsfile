@@ -21,7 +21,7 @@ pipeline {
         ECR_REPO         = 'hitech-ui'
         EKS_CLUSTER      = 'hitech-eks'
 
-        IMAGE_URI        = "$591109179789.dkr.ecr.ap-southeast-2.amazonaws.com/hitech-ui:v2"
+        IMAGE_URI        = "${591109179789}.dkr.ecr.${ap-southeast-2}.amazonaws.com/${hitech-ui}:${v2}"
 
         GITOPS_REPO      = 'https://github.com/mbniketh5/Hitech-UI.git'
         GITOPS_BRANCH    = 'main'
