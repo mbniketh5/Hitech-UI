@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hitech-ui
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: hitech-ui
+
+  template:
+    metadata:
+      labels:
+        app: hitech-ui
+
+    spec:
+      containers:
+      - name: hitech-ui
+        image: 591109179789.dkr.ecr.ap-southeast-2.amazonaws.com/hitech-ui-repo:v1
+
+        ports:
+        - containerPort: 80
