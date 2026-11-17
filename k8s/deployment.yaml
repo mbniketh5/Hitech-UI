@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: hitech-ui
-        image: 591109179789.dkr.ecr.ap-southeast-2.amazonaws.com/hitech-ui-repo:v1
+        image: 591109179789.dkr.ecr.ap-southeast-2.amazonaws.com/hitech-ui:v2
 
         ports:
         - containerPort: 80
