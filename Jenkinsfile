@@ -17,7 +17,7 @@ pipeline {
 
     environment {
         AWS_REGION       = 'ap-southeast-2'
-        AWS_ACCOUNT_ID   = 'i-0e70d648266a8b8b9'
+        AWS_ACCOUNT_ID   = '591109179789'
         ECR_REPO         = 'hitech-ui'
         EKS_CLUSTER      = 'hitech-eks'
 
